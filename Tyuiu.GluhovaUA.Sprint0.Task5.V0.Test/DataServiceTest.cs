@@ -1,8 +1,11 @@
-﻿using Tyuiu.GluhovaUA.Sprint0.Task5.V0.Lib;
+﻿
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using Tyuiu.GluhovaUA.Sprint0.Task5.V0.Lib;
 namespace Tyuiu.GluhovaUA.Sprint0.Task5.V0.Test
 {
     [TestClass]
-    public sealed class DataServiceTest
+    public class DataServiceTest
     {
         [TestMethod]
         public void CheckedAdditionValid()
