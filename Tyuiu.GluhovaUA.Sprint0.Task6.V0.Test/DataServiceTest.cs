@@ -1,6 +1,4 @@
 ﻿using Tyuiu.GluhovaUA.Sprint0.Task6.V0.Lib;
-
-using Tyuiu.GluhovaUA.Sprint0.Task6.V0.Lib;
 namespace Tyuiu.GluhovaUA.Sprint0.Task6.V0.Test
 {
     [TestClass]
@@ -17,22 +15,16 @@ namespace Tyuiu.GluhovaUA.Sprint0.Task6.V0.Test
         public void CheckedSubtractionValid()
         {
             var numbers = new int[] { 1, 2, 3, 4, 5 };
-            var res = DataService.Subtraction(numbers);
-            Assert.AreEqual(15, res);
+            var res = DataService.SubtractionArray(numbers);
+            Assert.AreEqual(-15, res);
         }
         [TestMethod]
         public void CheckedMultiplicationValid()
         {
             var numbers = new int[] { 1, 2, 3, 4, 5 };
-            var res = DataService.Multiplication(numbers);
-            Assert.AreEqual(15, res);
+            var res = DataService.MultiplicationArray(numbers);
+            Assert.AreEqual(120, res);
         }
-        [TestMethod]
-        public void CheckedDivisionValid()
-        {
-            var numbers = new int[] { 1, 2, 3, 4, 5 };
-            var res = DataService.Division(numbers);
-            Assert.AreEqual(15, res);
-        }
+        
     }
 }

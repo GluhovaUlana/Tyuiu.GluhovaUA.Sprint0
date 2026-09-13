@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tyuiu.GluhovaUA.Sprint0.Task6.V0.Lib;
-namespace Tyuiu.GluhovaUA.Sprint0.Task6.V0.Test
+namespace Tyuiu.GluhovaUA.Sprint0.Task6.V0.Lib
 {
     public class DataService
     {
@@ -23,7 +23,7 @@ namespace Tyuiu.GluhovaUA.Sprint0.Task6.V0.Test
             int index = 0;
             while (index<numbers.Length)
             {
-                total = total + numbers[index];
+                total = total - numbers[index];
                 index++;
             }
             return total;
@@ -34,7 +34,7 @@ namespace Tyuiu.GluhovaUA.Sprint0.Task6.V0.Test
             var index = 0;
             do
             {
-                total = total + numbers[index];
+                total = total * numbers[index];
                 index++;
             }
             while (index < numbers.Length);
