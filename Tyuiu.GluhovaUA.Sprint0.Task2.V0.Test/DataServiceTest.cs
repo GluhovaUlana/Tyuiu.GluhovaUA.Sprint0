@@ -14,5 +14,5 @@ namespace Tyuiu.GluhovaUA.Sprint0.Task2.V0.Test
             Assert.AreEqual("Привет, Ульяна", res);
 
         }
-    }
+    } 
 }
